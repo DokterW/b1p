@@ -3,13 +3,16 @@
 b1p is short for _Bitwarden to 1Password_. A very basic script that takes the exported JSON file from Bitwarden and generates a valid CSV file for 1Password import.
 
 ### Usage
-_b1p.sh <file name>_
+```b1p.sh <file name>```
+
 This exports all entries in the JSON file to one CSV file.
 
-_b1p.sh <file name> <folder name>_
+```b1p.sh <file name> <folder name>```
+
 This exports only entries from a specific Bitwarden folder to a CSV file with the same name.
 
-_b1p.sh <file name> list-folders_
+```b1p.sh <file name> list-folders```
+
 List Bitwarden folders.
 
 ### Roadmap
